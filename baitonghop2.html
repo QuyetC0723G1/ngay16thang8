@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baitapjame</title>
+</head>
+<body>
+<script>
+    // let x = ['a','x',3,12,4,'quyet','phon',10,'son'];
+    // let first = 0;
+    // let last = x.length-1;
+    // while(first<last){
+    //     let b = x[first];
+    //     x[first]=x[last];
+    //     x[last]= b;
+    //     first++
+    //     last--
+    // }
+    // document.write(x)
+
+    //
+    // let arr = ['a','x',3,12,4,'quyet','phon',10,'son'];
+    // arr=arr.reverse();
+    // console.log(arr);
+
+
+    // let arr = [[3,6,34,88],['phon','son','long'],['hieu',1,4,'huan']];
+    // for (let i = 0; i < arr.length; i++) {
+    //     arr[i]=arr[i].reverse();
+    // }arr=arr.reverse();
+    // console.log(arr);
+
+    // Bài 3: Viết một chương trình khai báo một mảng ký tự và kích thước của mảng. Chương trình này đếm số ký tự số trong mảng.
+    // let arr = ['g','lon',5,9,'h',10]
+    // let count = 0;
+    // for (let i = 0; i < arr.length; i++) {
+    //     if (!isNaN(arr[i])){
+    //         count++
+    //     }
+    // }
+    // console.log(count);
+
+
+    // cach 2
+    // let arr = ['g', 'lon', 5, 9, 'h', 10]
+    // let count = 0;
+    // let count1 = 0;
+    // for (let i = 0; i < arr.length; i++) {
+    //     count1++
+    //     if (typeof arr[i] == "number") {
+    //         count++
+    //     }
+    // }
+    // console.log(count);
+    // console.log(count1);
+
+
+    //     Bài 4: Viết một chương trình để đếm số từ trong một chuỗi
+    //  let arr = 'pham dang quyet'
+    // let count = 0;
+    //  const myArr = arr.split(' ')
+    // console.log(myArr.length);
+
+
+    // Bài 5: Viết một chương trình nhập vào 2 chuỗi, sau đó kiểm tra xem hai chuỗi có giống nhau hay không.
+    // let arr1 = prompt('nhap de')
+    // let arr2 = prompt('nhap tiep de')
+    // if (arr1===arr2){
+    //     alert('oke 2 chuoi nhu nhau')
+    // }
+    // else {alert('next me di')}
+
+    let arr1 = prompt('nhap de');
+    let arr2 = prompt('nhap tiep de');
+    isSame = false;
+    if (arr1.length === arr2.length) {
+        for (let i = 0, j = 0; i < arr1.length; i++, j++) {
+            if (arr1[i] === arr2[j]) {
+                isSame = true;
+            } else {
+                isSame = false;
+                break;
+            }
+        }
+        if (isSame) {
+            alert('2 chuoi ok')
+        } else {
+            alert('2 chuoi khac nhau')
+        }
+    } else {
+        alert('2 chuỗi khác nhau')
+    }
+
+
+    //
+    //     Bài 6: Viết chương trình nhập vào một mảng ký tự, tìm tất cả các ký tự trong mảng là (-) và thay thế các ký tự này bởi ký tự ( _ )
+    // let arr = [9, '-', 'h', '-', 'wuyt',6]
+    //     let count = 0;
+    //     for (let i = 0; i < arr.length; i++) {
+    //         if (arr[i] === '-') {
+    //             arr[i] = '_'
+    //         }
+    //     }
+    //     console.log(arr)
+
+
+</script>
+
+</body>
+</html>
